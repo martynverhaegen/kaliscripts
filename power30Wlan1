@@ -1,0 +1,1 @@
+ip link set dev wlan1 down && iw reg set GY &&  ip link set dev wlan1 up &&  iwconfig wlan1 channel 13 && iwconfig wlan1 txpower 30 && iwconfig wlan1 rate 54M auto

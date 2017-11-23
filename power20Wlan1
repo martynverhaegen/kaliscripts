@@ -1,0 +1,1 @@
+ip link set dev wlan1 down && iw reg set BO &&  ip link set dev wlan1 up &&  iwconfig wlan1 channel 12 && iwconfig wlan1 txpower 20 && iwconfig wlan1 rate auto
